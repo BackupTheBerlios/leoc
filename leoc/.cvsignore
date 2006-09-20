@@ -1,0 +1,13 @@
+*.output
+out.s
+c.c
+tmp
+*~
+l
+*.o
+*.exe
+*.s
+if*
+func*
+ign_*
+a.out

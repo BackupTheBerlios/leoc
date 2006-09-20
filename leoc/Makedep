@@ -1,0 +1,6 @@
+codegen2.o: codegen2.c tree.h config.h types.h codegen2.h utils.h
+symbol.o: symbol.c utils.h config.h symbol.h xalloc.h
+tree.o: tree.c tree.h config.h types.h utils.h
+types.o: types.c config.h utils.h types.h
+utils.o: utils.c utils.h config.h
+xalloc.o: xalloc.c xalloc.h config.h utils.h
